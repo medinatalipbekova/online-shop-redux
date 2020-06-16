@@ -1,0 +1,54 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+body{
+  position: relative;
+  background-color: #f1f1f1;
+}
+
+.page-wrap{
+  min-height: calc(100vh - 69px - 149px);
+}
+
+.header{
+  width:100%;
+  padding: 15px 50px;
+  position: fixed;
+}
+
+.sort{
+    display: flex;
+  justify-content: flex-start;
+
+}
+.footer{
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 800px) {
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: right;
+  }
+  table td::before {
+    content: attr(data-label);
+  }
+}
