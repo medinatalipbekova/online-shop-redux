@@ -24,8 +24,8 @@ const Basket = () => {
     CAD: 'C$'
   }
   return (
-    <div className="flex justify-center ">
-      <div className="flex justify-center items-baseline w-full">
+    <div className="flex flex-col">
+      <div>
         <table className="min-w-full pt-3 black bg-gray-50 my-8 mx-auto border-gray-200 px-8 border-4 ">
           <thead>
             <tr>
@@ -82,11 +82,18 @@ const Basket = () => {
           </tbody>
         </table>
       </div>
-      <div className="flex items-end">
-        <b>TOTAL PRICE:
+      <div className="text-center text-xl leading-4 font-medium text-gray-700 uppercase tracking-wider">
+        <b>
+          TOTAL PRICE:
           {totalPrice}
           {symbols[base]}
         </b>
+        <div className="flex w-full justify-center">
+          <select className="p-3 border-none sort text-white ">
+            <option value="price">VISA</option>
+            <option value="price">MASTER CARD</option>
+          </select>
+        </div>
       </div>
     </div>
   )

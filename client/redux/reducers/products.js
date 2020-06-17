@@ -65,7 +65,8 @@ export default (state= initialState, action) => {
     }
     case UPDATE_SEARCH_TYPE: {
       return {
-        searchType: action.searchType
+        ...state,
+        searchType: action.newType
       }
     }
     default:
@@ -103,8 +104,4 @@ export function setBase(base) {
 
 export function setCurrentPage(page) {
   return{ type: CURRENT_PAGE , page}
-}
-
-export function setSearch(searchType) {
-  return{ type: UPDATE_SEARCH_TYPE , searchType}
 }

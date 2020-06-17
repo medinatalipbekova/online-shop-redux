@@ -59,22 +59,21 @@ const read = () => {
     })
     .catch(() => [])
 }
+server.post('/api/v1/logs', async (req, res) => {
+  const logs = await read()
+  const newLog = req.body
+  const updateLogs = [...logs, { ...newLog, time: new Date() }]
+  await write(updateLogs)
+  res.json({ status: 'successfully' })
+})
 
 server.get('/api/v1/products', (req, res) => {
   res.json(data)
 })
 
-// server.get('/api/v1/logs', async (req, res) => {
-//   const logs = await read()
-//   res.json(logs)
-// })
-
-server.post('/api/v1/logs', async (req, res) => {
-  const logs = await read()
-  const newLog = req.body
-  const updateLogs = [...logs, newLog]
-  await write(updateLogs)
-  res.json({ status: 'successfully' })
+server.get('/api/v1/logs', async (req, res) => {
+  const logs = await read('logs')
+  res.json(logs)
 })
 
 server.get('/api/v1/rates', async (req, res) => {
@@ -122,7 +121,6 @@ if (config.isSocketsEnabled) {
   echo.on('connection', (conn) => {
     connections.push(conn)
     conn.on('data', async () => {})
-
     conn.on('close', () => {
       connections = connections.filter((c) => c.readyState !== 3)
     })

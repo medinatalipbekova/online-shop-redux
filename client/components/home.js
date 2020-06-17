@@ -5,6 +5,7 @@ import Header from './header'
 import { getProducts, getRates } from '../redux/reducers/products'
 import Basket from './basket'
 import Main from './main'
+import Logs from './logs'
 
 const Home = () => {
   const dispatch = useDispatch()
@@ -16,9 +17,10 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="container mx-auto py-16 page-wrap">
+      <div className="container mx-auto py-16 page-wrap ">
         <Route exact path="/" component={() => <Main />} />
         <Route exact path="/basket" component={() => <Basket />} />
+        <Route exact path="/logs" component={() => <Logs />} />
       </div>
     </div>
   )

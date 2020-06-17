@@ -11,7 +11,7 @@ body{
 }
 
 .page-wrap{
-  min-height: calc(100vh - 69px - 149px);
+  min-height: calc(100vh - 73px);
 }
 
 .header{
@@ -20,15 +20,14 @@ body{
   position: fixed;
 }
 
-.sort{
-    display: flex;
-  justify-content: flex-start;
-
-}
 .footer{
   background-color: #f1f1f1;
 }
-
+.sort{
+  background-color: #f1f1f1;
+  color: black;
+  opacity: 50%;
+}
 @media screen and (max-width: 800px) {
   table thead {
     border: none;
@@ -51,4 +50,9 @@ body{
   table td::before {
     content: attr(data-label);
   }
+}
+
+.img1:hover {
+  opacity: 0;
+  transition: 0.6s;
 }

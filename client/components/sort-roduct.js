@@ -2,13 +2,13 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { setBase } from '../redux/reducers/products'
 
-const SortProducts = (props) => {
+const SortProducts = () => {
   const dispatch = useDispatch()
   return (
-    <div className=" flex justify-center sort mb-8 mt-8 border border-solid border-black bg-black text-white flex w-full mb-8 ">
-      <div>
+    <div className="flex justify-around mb-16">
+      <div className="flex w-full">
         <select
-          className="p-3 border-none bg-black text-white mr-8 mr-64 ml-6"
+          className="p-3 border-none sort text-white mr-64 "
           onChange={(e) => dispatch(setBase(e.target.value))}
         >
           <option value="EUR">EUR</option>
@@ -16,18 +16,9 @@ const SortProducts = (props) => {
           <option value="CAD">CAD</option>
         </select>
       </div>
-      <div className="flex ">
-        <input
-          value={props.search}
-          onChange={props.handleSearch}
-          type="text"
-          placeholder="Search..."
-          className="flex appearance-none bg-transparent opacity-50 text-white ml-40 mr-40"
-        />
-      </div>
-      <div>
+      <div className="flex w-full justify-end">
         <select
-          className="p-3 border-none bg-black text-white mr-8"
+          className="p-3 border-none sort text-white "
           onChange={(e) => dispatch({ type: 'UPDATE_SORT_TYPE', newType: e.target.value })}
         >
           <option selected="selected" value="a-z">

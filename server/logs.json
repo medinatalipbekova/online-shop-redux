@@ -1,1 +1,975 @@
-[]
+[
+  {
+    "type": "GET_LOGS",
+    "logs": [],
+    "time": "2020-06-17T07:06:37.633Z"
+  },
+  {
+    "type": "GET_LOGS",
+    "logs": [
+      {
+        "type": "GET_LOGS",
+        "logs": [],
+        "time": "2020-06-17T07:06:37.633Z"
+      }
+    ],
+    "time": "2020-06-17T07:07:38.628Z"
+  },
+  {
+    "type": "GET_LOGS",
+    "logs": [
+      {
+        "type": "GET_LOGS",
+        "logs": [],
+        "time": "2020-06-17T07:06:37.633Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:38.628Z"
+      }
+    ],
+    "time": "2020-06-17T07:07:48.167Z"
+  },
+  {
+    "type": "GET_LOGS",
+    "logs": [
+      {
+        "type": "GET_LOGS",
+        "logs": [],
+        "time": "2020-06-17T07:06:37.633Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:38.628Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:48.167Z"
+      }
+    ],
+    "time": "2020-06-17T07:07:49.386Z"
+  },
+  {
+    "type": "GET_LOGS",
+    "logs": [
+      {
+        "type": "GET_LOGS",
+        "logs": [],
+        "time": "2020-06-17T07:06:37.633Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:38.628Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:48.167Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:48.167Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:49.386Z"
+      }
+    ],
+    "time": "2020-06-17T07:08:12.038Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:24.655Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:24.906Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:25.170Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:25.396Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:25.575Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+    "time": "2020-06-17T07:08:26.905Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+    "time": "2020-06-17T07:08:27.103Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+    "time": "2020-06-17T07:08:27.324Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+    "time": "2020-06-17T07:08:27.583Z"
+  },
+  {
+    "type": "ADD_TO_SELECTION",
+    "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+    "time": "2020-06-17T07:08:27.763Z"
+  },
+  {
+    "type": "GET_LOGS",
+    "logs": [
+      {
+        "type": "GET_LOGS",
+        "logs": [],
+        "time": "2020-06-17T07:06:37.633Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:38.628Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:48.167Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:48.167Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:49.386Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:48.167Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  },
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [],
+                        "time": "2020-06-17T07:06:37.633Z"
+                      }
+                    ],
+                    "time": "2020-06-17T07:07:38.628Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:48.167Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:49.386Z"
+          }
+        ],
+        "time": "2020-06-17T07:08:12.038Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:24.655Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:24.906Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:25.170Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:25.396Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:25.575Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:26.905Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.103Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.324Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.583Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.763Z"
+      }
+    ],
+    "time": "2020-06-17T07:08:34.050Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:44.261Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:44.425Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:44.606Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:44.788Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:44.990Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:45.190Z"
+  },
+  {
+    "type": "REMOVE_FROM_SELECTION",
+    "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+    "time": "2020-06-17T07:08:45.368Z"
+  },
+  {
+    "type": "GET_LOGS",
+    "logs": [
+      {
+        "type": "GET_LOGS",
+        "logs": [],
+        "time": "2020-06-17T07:06:37.633Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:38.628Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:48.167Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:48.167Z"
+          }
+        ],
+        "time": "2020-06-17T07:07:49.386Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:48.167Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  },
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [],
+                        "time": "2020-06-17T07:06:37.633Z"
+                      }
+                    ],
+                    "time": "2020-06-17T07:07:38.628Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:48.167Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:49.386Z"
+          }
+        ],
+        "time": "2020-06-17T07:08:12.038Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:24.655Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:24.906Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:25.170Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:25.396Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:25.575Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:26.905Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.103Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.324Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.583Z"
+      },
+      {
+        "type": "ADD_TO_SELECTION",
+        "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+        "time": "2020-06-17T07:08:27.763Z"
+      },
+      {
+        "type": "GET_LOGS",
+        "logs": [
+          {
+            "type": "GET_LOGS",
+            "logs": [],
+            "time": "2020-06-17T07:06:37.633Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:38.628Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:48.167Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  },
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [],
+                        "time": "2020-06-17T07:06:37.633Z"
+                      }
+                    ],
+                    "time": "2020-06-17T07:07:38.628Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:48.167Z"
+              }
+            ],
+            "time": "2020-06-17T07:07:49.386Z"
+          },
+          {
+            "type": "GET_LOGS",
+            "logs": [
+              {
+                "type": "GET_LOGS",
+                "logs": [],
+                "time": "2020-06-17T07:06:37.633Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:38.628Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  },
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [],
+                        "time": "2020-06-17T07:06:37.633Z"
+                      }
+                    ],
+                    "time": "2020-06-17T07:07:38.628Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:48.167Z"
+              },
+              {
+                "type": "GET_LOGS",
+                "logs": [
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [],
+                    "time": "2020-06-17T07:06:37.633Z"
+                  },
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [],
+                        "time": "2020-06-17T07:06:37.633Z"
+                      }
+                    ],
+                    "time": "2020-06-17T07:07:38.628Z"
+                  },
+                  {
+                    "type": "GET_LOGS",
+                    "logs": [
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [],
+                        "time": "2020-06-17T07:06:37.633Z"
+                      },
+                      {
+                        "type": "GET_LOGS",
+                        "logs": [
+                          {
+                            "type": "GET_LOGS",
+                            "logs": [],
+                            "time": "2020-06-17T07:06:37.633Z"
+                          }
+                        ],
+                        "time": "2020-06-17T07:07:38.628Z"
+                      }
+                    ],
+                    "time": "2020-06-17T07:07:48.167Z"
+                  }
+                ],
+                "time": "2020-06-17T07:07:49.386Z"
+              }
+            ],
+            "time": "2020-06-17T07:08:12.038Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+            "time": "2020-06-17T07:08:24.655Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+            "time": "2020-06-17T07:08:24.906Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+            "time": "2020-06-17T07:08:25.170Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+            "time": "2020-06-17T07:08:25.396Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+            "time": "2020-06-17T07:08:25.575Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+            "time": "2020-06-17T07:08:26.905Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+            "time": "2020-06-17T07:08:27.103Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+            "time": "2020-06-17T07:08:27.324Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+            "time": "2020-06-17T07:08:27.583Z"
+          },
+          {
+            "type": "ADD_TO_SELECTION",
+            "id": "c7f6153d-5586-495c-beb2-4758bb8a6451",
+            "time": "2020-06-17T07:08:27.763Z"
+          }
+        ],
+        "time": "2020-06-17T07:08:34.050Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:44.261Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:44.425Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:44.606Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:44.788Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:44.990Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:45.190Z"
+      },
+      {
+        "type": "REMOVE_FROM_SELECTION",
+        "id": "bed2dcab-6c14-42be-96a1-9cdfccee40d8",
+        "time": "2020-06-17T07:08:45.368Z"
+      }
+    ],
+    "time": "2020-06-17T07:08:47.111Z"
+  },
+  {
+    "type": "CURRENT_PAGE",
+    "page": 10,
+    "time": "2020-06-17T07:09:20.992Z"
+  }
+]

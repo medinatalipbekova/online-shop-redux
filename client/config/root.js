@@ -74,6 +74,7 @@ const RootComponent = (props) => {
           <Switch>
             <Route exact path="/" component={() => <Home />} />
             <Route exact path="/basket" component={() => <Home />} />
+            <Route exact path="/logs" component={() => <Home />} />
             <PrivateRoute exact path="/hidden-route" component={() => <DummyView />} />
             <Route component={() => <NotFound />} />
           </Switch>

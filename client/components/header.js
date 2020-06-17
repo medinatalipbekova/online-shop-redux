@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHistory, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
@@ -8,8 +10,14 @@ const Header = () => {
     return acc + selection[rec]
   }, 0)
   return (
-    <div className="flex justify-between header bg-black items-baseline">
+    <div className="flex justify-between header bg-black items-baseline ">
       <div>
+        <Link
+          to="/logs"
+          className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 "
+        >
+          <FontAwesomeIcon icon={faHistory} />
+        </Link>
         <Link
           to="/"
           className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 "
@@ -29,6 +37,7 @@ const Header = () => {
           to="/basket"
           className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 "
         >
+          <FontAwesomeIcon className="mr-2" icon={faShoppingBag} />
           CART( {totalQuantity})
         </Link>
       </div>

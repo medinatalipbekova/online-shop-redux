@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import SortProducts from './sort-roduct'
 import Footer from './footer'
 import Pagination from './pagination'
 import { addSelection, removeSelection } from '../redux/reducers/products'
+import SortProducts from './sort-roduct'
 
 const Cards = () => {
   const [find, setFind] = useState('')
@@ -22,6 +22,7 @@ const Cards = () => {
     EUR: '€',
     CAD: 'C$'
   }
+
   const handleFind = (str) => {
     setFind(str.toLowerCase())
   }
@@ -39,18 +40,21 @@ const Cards = () => {
     }
     return catalogList.sort((a, b) => a.title.localeCompare(b.title))
   }
-
   return (
-    <div>
+    <div className="flex flex-col">
+      <div className="flex justify-center flex-no-wrap border-b border-b-8 border-black mt-24 w-full ">
+        <input
+          value={search}
+          onChange={handleSearch}
+          type="text"
+          placeholder="Search..."
+          className="flex appearance-none bg-transparent opacity-50 text-black text-center"
+        />
+      </div>
+      <div>
+        <SortProducts sortBy={sortBy} />
+      </div>
       <div className=" flex flex-wrap justify-center -mx-8 ">
-        <div className="flex mb-8 ">
-          <SortProducts
-            sortBy={sortBy}
-            handleSearch={handleSearch}
-            handleFind={handleFind}
-            search={search}
-          />
-        </div>
         {sortBy(filterList, sortType).map((card) => (
           <div className="w-1/4 px-8">
             <div className="  border-solid border-gray-500 p-6">
@@ -58,7 +62,7 @@ const Cards = () => {
                 <img
                   src="https://cdn.shopify.com/s/files/1/0161/1184/products/Integer-Vitaly-SS-1_600x.jpg?v=1586462785"
                   alt={card.title}
-                  className=" h-64 w-full object-contain background-black "
+                  className=" h-64 w-full object-contain background-black img1"
                 />
               </div>
               <div className=" h-6 mb-6">
