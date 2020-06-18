@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const GET_LOGS = 'GET_LOGS'
+const GET_LOGS = '@@GET_LOGS'
 
 const initialState = {
   list: [],

@@ -1,49 +1,14 @@
-import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck, faMinus } from '@fortawesome/free-solid-svg-icons'
-import { getLogs } from '../redux/reducers/logs'
+import React from 'react'
+import { useSelector } from 'react-redux'
 
 const Logs = () => {
-  const dispatch = useDispatch()
   const logs = useSelector((store) => store.logsItem.logs)
-  const list = useSelector((store) => store.products.list)
-  useEffect(() => {
-    dispatch(getLogs())
-  }, [dispatch])
 
   return (
-    <div>
-      <table className="table-fixed">
-        <thead>
-          <tr>
-            <th className="w-1/4 px-4 py-2">Products</th>
-            <th className="w-1/4 px-4 py-2">added to the basket</th>
-            <th className="w-1/4 px-4 py-2">removed from the basket</th>
-            <th className="w-1/4 px-4 py-2">type</th>
-            <th className="w-1/4 px-4 py-2">time</th>
-          </tr>
-        </thead>
-        {list.map((item) => (
-          <tbody>
-            {logs.map((el) =>
-              item.id === el.id ? (
-                <tr className="bg-gray-100">
-                  <td className="border px-4 py-2">{item.title}</td>
-                  <td className="border px-4 py-2">
-                    {el.type === 'ADD_TO_SELECTION' ? <div><FontAwesomeIcon icon={faCheck} /></div> : undefined}
-                  </td>
-                  <td className="border px-4 py-2">
-                    {el.type === 'REMOVE_FROM_SELECTION' ? <div><FontAwesomeIcon icon={faMinus} /></div> : undefined}
-                  </td>
-                  <td className="border px-4 py-2">{el.type}</td>
-                  <td className="border px-4 py-2">{el.time}</td>
-                </tr>
-              ) : undefined
-            )}
-          </tbody>
-        ))}
-      </table>
+    <div className="container w-full mx-auto mt-20 border-t border-2  border-black ">
+      {logs.map((el) => (
+        <div className="ml-16 mb-2  text-left  text-xl p-4 ">{el.event}</div>
+      ))}
     </div>
   )
 }

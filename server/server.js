@@ -61,9 +61,35 @@ const read = () => {
 }
 server.post('/api/v1/logs', async (req, res) => {
   const logs = await read()
-  const newLog = req.body
-  const updateLogs = [...logs, { ...newLog, time: new Date() }]
-  await write(updateLogs)
+  let updatedLogs = []
+  if (req.body.type === 'ADD_TO_SELECTION') {
+    updatedLogs = [
+      ...logs,
+      {
+        time: +new Date(),
+        event: `Add ${data.find((el) => el.id === req.body.id).title} to the basket`
+      }
+    ]
+  }
+  if (req.body.type === 'REMOVE_FROM_SELECTION') {
+    updatedLogs = [
+      ...logs,
+      {
+        time: +new Date(),
+        event: `Remove ${data.find((el) => el.id === req.body.id).title} to the basket`
+      }
+    ]
+  }
+  if (req.body.type === 'UPDATE_SORT_TYPE') {
+    updatedLogs = [...logs, { time: +new Date(), event: `Sorts changed to ${req.body.newType} ` }]
+  }
+  if (req.body.type === 'CURRENT_PAGE') {
+    updatedLogs = [...logs, { time: +new Date(), event: `Page changed to ${req.body.page}` }]
+  }
+  if (req.body.type === 'SET_BASE') {
+    updatedLogs = [...logs, { time: +new Date(), event: `Currency changed to ${req.body.base}` }]
+  }
+  await write(updatedLogs)
   res.json({ status: 'successfully' })
 })
 

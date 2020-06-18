@@ -5,7 +5,7 @@ const GET_RATES = '@@GET_RATES'
 const SET_BASE = 'SET_BASE'
 const CURRENT_PAGE = 'CURRENT_PAGE'
 const UPDATE_SORT_TYPE = 'UPDATE_SORT_TYPE'
-const UPDATE_SEARCH_TYPE = 'UPDATE_SEARCH_TYPE'
+const UPDATE_SEARCH_TYPE = '@@UPDATE_SEARCH_TYPE'
 
 const initialState = {
   list: [],

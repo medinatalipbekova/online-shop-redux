@@ -6,12 +6,14 @@ import { getProducts, getRates } from '../redux/reducers/products'
 import Basket from './basket'
 import Main from './main'
 import Logs from './logs'
+import { getLogs } from '../redux/reducers/logs'
 
 const Home = () => {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(getProducts())
     dispatch(getRates())
+    dispatch(getLogs())
   }, [dispatch])
 
   return (
